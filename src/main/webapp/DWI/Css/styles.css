@@ -1,0 +1,72 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-dialog {
+    max-width: 500px;
+    width: 100%;
+}
+.modal-content {
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    background-color: #fff;
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+.modal-body {
+    padding: 1rem;
+}
+.modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+.btn-close {
+    cursor: pointer;
+}
+.welcome-header {
+    margin-top: 2rem;
+    text-align: center;
+}
+.table-container {
+    margin-top: 2rem;
+}
+
+#clientes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Espacio entre el título/botón y la tabla */
+}
+
+#clientes-btn-container {
+    margin-top: 20px; /* Espacio entre los cuadros de los meses y el botón */
+    text-align: right; /* Alinea el botón a la derecha */
+}
+
+#clientes-btn {
+    margin-left: auto; /* Asegura que el botón esté alineado a la derecha */
+    margin-top: -15px; /* Para moverlo más arriba si es necesario */
+}
+
+#elpepe{
+    left: 50%;
+}
